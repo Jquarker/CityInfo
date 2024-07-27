@@ -1,0 +1,2 @@
+/usr/bin/ar qc libinfo.a CMakeFiles/info.dir/city.cpp.o
+/usr/bin/ranlib libinfo.a

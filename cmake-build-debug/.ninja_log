@@ -1,0 +1,7 @@
+# ninja log v6
+1	138	1722048558214174803	src/info/CMakeFiles/info.dir/city.cpp.o	a9d4c938cd96277d
+1	142	1722048558214174803	src/main/CMakeFiles/main.dir/main.cpp.o	ca1a8eef1824ae0f
+138	142	1722048558350165380	src/info/libinfo.a	61efb92b4a3b8291
+1	193	1722048558214174803	src/putsys/CMakeFiles/putsys.dir/putsys.cpp.o	e57105e6fed03018
+193	198	1722048558406161500	src/putsys/libputsys.a	e02f941e14af3c9a
+198	230	1722048558410161224	src/main/main	b5b83bd5cbeeb484

@@ -1,0 +1,5 @@
+project(main)
+set(SOURCES main.cpp)
+add_executable(main main.cpp)
+target_include_directories(main PRIVATE ${CMAKE_SOURCE_DIR}/src/info ${CMAKE_SOURCE_DIR}/src/putsys)
+target_link_libraries(main PRIVATE info putsys)

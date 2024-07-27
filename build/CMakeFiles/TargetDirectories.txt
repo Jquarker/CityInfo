@@ -1,0 +1,13 @@
+/home/jquark/City_info/build/CMakeFiles/edit_cache.dir
+/home/jquark/City_info/build/CMakeFiles/rebuild_cache.dir
+/home/jquark/City_info/build/src/CMakeFiles/edit_cache.dir
+/home/jquark/City_info/build/src/CMakeFiles/rebuild_cache.dir
+/home/jquark/City_info/build/src/info/CMakeFiles/info.dir
+/home/jquark/City_info/build/src/info/CMakeFiles/edit_cache.dir
+/home/jquark/City_info/build/src/info/CMakeFiles/rebuild_cache.dir
+/home/jquark/City_info/build/src/putsys/CMakeFiles/putsys.dir
+/home/jquark/City_info/build/src/putsys/CMakeFiles/edit_cache.dir
+/home/jquark/City_info/build/src/putsys/CMakeFiles/rebuild_cache.dir
+/home/jquark/City_info/build/src/main/CMakeFiles/main.dir
+/home/jquark/City_info/build/src/main/CMakeFiles/edit_cache.dir
+/home/jquark/City_info/build/src/main/CMakeFiles/rebuild_cache.dir
