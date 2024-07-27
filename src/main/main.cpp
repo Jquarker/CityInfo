@@ -7,8 +7,7 @@ int main() {
 
     while (true) {
         std::cout << "1. Add city info" << std::endl;
-        std::cout << "2. Print city info" << std::endl;
-        std::cout << "3. Exit" << std::endl;
+        std::cout << "2. Exit" << std::endl;
         std::cout << "Choose an option: ";
 
         int choice;
@@ -25,11 +24,6 @@ int main() {
             inputSystem.inputCityInfo(city);
             inputSystem.addCity(city);
         } else if (choice == 2) {
-            std::string cityName;
-            std::cout << "Enter city name to print: ";
-            std::getline(std::cin, cityName);
-            outputSystem.printcity(cityName, inputSystem);
-        } else if (choice == 3) {
             break;
         } else {
             std::cout << "Wrong choice" << std::endl;

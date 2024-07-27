@@ -56,19 +56,19 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/jquark/City_info/src/info"
+					"path" : "/home/jquark/233/CityInfo/src/info"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "/home/jquark/City_info/src/putsys"
+					"path" : "/home/jquark/233/CityInfo/src/putsys"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/jquark/City_info/src/info/info"
+					"path" : "/home/jquark/233/CityInfo/src/info/info"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "/home/jquark/City_info"
+					"path" : "/home/jquark/233/CityInfo"
 				}
 			],
 			"language" : "CXX",
@@ -112,12 +112,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "src/info/libinfo.a",
+				"fragment" : "../info/libinfo.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "src/putsys/libputsys.a",
+				"fragment" : "../putsys/libputsys.a",
 				"role" : "libraries"
 			}
 		],

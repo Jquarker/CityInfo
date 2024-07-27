@@ -60,15 +60,15 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/jquark/City_info/src/putsys"
+					"path" : "/home/jquark/233/CityInfo/src/putsys"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/jquark/City_info"
+					"path" : "/home/jquark/233/CityInfo"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/jquark/City_info/src/info"
+					"path" : "/home/jquark/233/CityInfo/src/info"
 				}
 			],
 			"language" : "CXX",

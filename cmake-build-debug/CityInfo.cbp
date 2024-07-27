@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CityInfo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\src\info\;CMake Files\src\putsys\;CMake Files\src\main\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jquark/233/CityInfo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jquark/233/CityInfo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jquark/233/CityInfo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="info">
+				<Option output="/home/jquark/233/CityInfo/cmake-build-debug/src/info/libinfo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jquark/233/CityInfo/cmake-build-debug/src/info"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jquark/233/CityInfo/src/info/info"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/info/Makefile&quot;  VERBOSE=1 info"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/info/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/info/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/info/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="info/fast">
+				<Option output="/home/jquark/233/CityInfo/cmake-build-debug/src/info/libinfo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jquark/233/CityInfo/cmake-build-debug/src/info"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jquark/233/CityInfo/src/info/info"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/info/Makefile&quot;  VERBOSE=1 info/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/info/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/info/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/info/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="putsys">
+				<Option output="/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/libputsys.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jquark/233/CityInfo/cmake-build-debug/src/putsys"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jquark/233/CityInfo/src/putsys"/>
+					<Add directory="/home/jquark/233/CityInfo"/>
+					<Add directory="/home/jquark/233/CityInfo/src/info"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/Makefile&quot;  VERBOSE=1 putsys"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="putsys/fast">
+				<Option output="/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/libputsys.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jquark/233/CityInfo/cmake-build-debug/src/putsys"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jquark/233/CityInfo/src/putsys"/>
+					<Add directory="/home/jquark/233/CityInfo"/>
+					<Add directory="/home/jquark/233/CityInfo/src/info"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/Makefile&quot;  VERBOSE=1 putsys/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/putsys/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/jquark/233/CityInfo/cmake-build-debug/src/main/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jquark/233/CityInfo/cmake-build-debug/src/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jquark/233/CityInfo/src/info"/>
+					<Add directory="/home/jquark/233/CityInfo/src/putsys"/>
+					<Add directory="/home/jquark/233/CityInfo/src/info/info"/>
+					<Add directory="/home/jquark/233/CityInfo"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/main/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/jquark/233/CityInfo/cmake-build-debug/src/main/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jquark/233/CityInfo/cmake-build-debug/src/main"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/jquark/233/CityInfo/src/info"/>
+					<Add directory="/home/jquark/233/CityInfo/src/putsys"/>
+					<Add directory="/home/jquark/233/CityInfo/src/info/info"/>
+					<Add directory="/home/jquark/233/CityInfo"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/main/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/main/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/main/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j32 -f &quot;/home/jquark/233/CityInfo/cmake-build-debug/src/main/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jquark/233/CityInfo/src/info/city.cpp">
+			<Option target="info"/>
+		</Unit>
+		<Unit filename="/home/jquark/233/CityInfo/src/info/city.h">
+			<Option target="info"/>
+		</Unit>
+		<Unit filename="/home/jquark/233/CityInfo/src/main/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/jquark/233/CityInfo/src/putsys/putsys.cpp">
+			<Option target="putsys"/>
+		</Unit>
+		<Unit filename="/home/jquark/233/CityInfo/src/putsys/putsys.h">
+			<Option target="putsys"/>
+		</Unit>
+		<Unit filename="/home/jquark/233/CityInfo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jquark/233/CityInfo/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/jquark/233/CityInfo/src/info/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\info\"/>
+		</Unit>
+		<Unit filename="/home/jquark/233/CityInfo/src/putsys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\putsys\"/>
+		</Unit>
+		<Unit filename="/home/jquark/233/CityInfo/src/main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\main\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

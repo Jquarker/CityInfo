@@ -43,25 +43,5 @@ City inputsys::getCity(const std::string& cityName)const{
 
 // 查找city并返回
 void outputsys::printcity(const std::string& cityName, const inputsys& inputsystem) const {
-    City city = inputsystem.getCity(cityName);
 
-    std::cout << "City:" << city.getName() << std::endl;
-
-    std::cout << "Schools: ";
-    std::vector<std::string>::const_iterator school_i;
-    for (school_i = city.getSchools().begin(); school_i != city.getSchools().end(); ++school_i)
-        std::cout << *school_i << " ";
-    std::cout << std::endl;
-
-    std::cout << "Hospitals: ";
-    std::vector<std::string>::const_iterator Hospital_i;
-    for (Hospital_i = city.getHospitals().begin(); Hospital_i != city.getHospitals().end(); ++Hospital_i)
-        std::cout << *Hospital_i << " ";
-    std::cout << std::endl;
-
-    std::cout << "Factories: ";
-    std::vector<std::string>::const_iterator Factorie_i;
-    for (Factorie_i = city.getFactories().begin(); Factorie_i != city.getFactories().end(); ++Factorie_i)
-        std::cout << *Factorie_i << " ";
-    std::cout << std::endl;
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /home/jquark/City_info/src/putsys
+# Install script for directory: /home/jquark/233/CityInfo/src/putsys
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

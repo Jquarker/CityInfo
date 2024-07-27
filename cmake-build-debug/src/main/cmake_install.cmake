@@ -1,4 +1,4 @@
-# Install script for directory: /home/jquark/City_info/src/main
+# Install script for directory: /home/jquark/233/CityInfo/src/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
